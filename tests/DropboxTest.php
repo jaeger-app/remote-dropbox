@@ -28,4 +28,14 @@ class DropboxTest extends \PHPUnit_Framework_TestCase
         $s3 = Dropbox::getRemoteClient($creds['dropbox_access_token'], $creds['dropbox_app_secret']);
         $this->assertInstanceOf('Dropbox\Client', $s3);
     }
+    
+    /**
+     * The Dropbox API testing detalis
+     *
+     * @return array
+     */
+    protected function getDropboxCreds()
+    {
+        return include 'data/dropboxcreds.config.php';
+    }
 }

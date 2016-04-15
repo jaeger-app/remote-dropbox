@@ -3,6 +3,7 @@
 	"description": "A Dropbox plugin for JaegerApp\\Remote.",
 	"require": {
 		"php": ">=5.4.0",
+		"league/flysystem-dropbox": "^1.0",
 		"jaeger-app/remote": "dev-master"
 	},
 	"require-dev": {

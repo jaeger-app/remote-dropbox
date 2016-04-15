@@ -7,7 +7,7 @@
  * @version		1.0
  * @filesource 	./mithra62/Remote/Dropbox.php
  */
-namespace mithra62\Remote;
+namespace JaegerApp\Remote;
 
 use League\Flysystem\Dropbox\DropboxAdapter as Adapter;
 use RuntimeException;
